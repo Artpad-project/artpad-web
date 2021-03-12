@@ -1,19 +1,14 @@
+$default-margin: 5px;
 
-.member-list {
-    display: flexbox;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    .member.container {
-        
-        flex-basis: 100%;
-        position: relative;
-        max-width:1000px;
-        margin: auto;
-        display: inline-block;
-        background: grey;
-        margin: 10px;
-    }
+.member-container {
+    
+    flex-basis: 100%;
+    position: relative;
+    max-width:1000px;
+    margin: auto;
+    display: inline-block;
+    background: grey;
+    margin: 10px;
 
     .member.main-div {
         display: inline-flex;
@@ -23,9 +18,9 @@
 
     .member.img {
         position: relative;
-        border-radius: 5%;
+        border-radius: 10%;
         border: 3px solid red;
-        margin: 5px;
+        margin: $default-margin;
         float: left;
         height: 100px;
     }
@@ -34,17 +29,18 @@
         display: flexbox;
         flex-direction: column;
         border: 3px solid greenyellow;
-        margin: 5px;
-        padding: 3px;
+        margin: $default-margin;
+        padding: 0 $default-margin;
         color: greenyellow;
 
         #name {
-            font-size: 24;
-            font-weight: 800;
+            font-size: 18px;
+            font-weight: 600;
         }
 
         #text {
-            color: rgb(61, 61, 61);
+            font-style: italic;
+            color: rgb(47, 47, 47);
         }
     }
 }

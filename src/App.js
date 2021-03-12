@@ -1,9 +1,9 @@
-import Members from './Components/MemberDescription'
+import Members from './components/Members'
 import './css/App.css'
 
 function App() {
   return (
-    <div class="members">
+    <div>
       <Members/>
     </div>
   );

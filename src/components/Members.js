@@ -10,7 +10,7 @@ class MemberContainer extends React.Component {
 
     render() {
         return (
-            <div class="member container">
+            <div class="member-container">
                 <div class="member main-div">
                     <img class="member img" src={`${this.img_src}`}/>
                     <div class="member description">
@@ -45,14 +45,12 @@ export default function Members() {
     ];
 
     return (
-        <div clas="member-list">
-            {members.map((member) =>
+            members.map((member) =>
                 <MemberContainer 
                     img_src={`${member.img_src}`}
                     description={`${member.description}`}
                     name={`${member.name}`}
                 />
-            )}
-        </div>
+            )
     );
 }
