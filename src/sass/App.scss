@@ -1,0 +1,50 @@
+
+.member-list {
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .member.container {
+        
+        flex-basis: 100%;
+        position: relative;
+        max-width:1000px;
+        margin: auto;
+        display: inline-block;
+        background: grey;
+        margin: 10px;
+    }
+
+    .member.main-div {
+        display: inline-flex;
+        border: 3px solid black;
+        flex-direction: row;
+    }
+
+    .member.img {
+        position: relative;
+        border-radius: 5%;
+        border: 3px solid red;
+        margin: 5px;
+        float: left;
+        height: 100px;
+    }
+
+    .member.description {
+        display: flexbox;
+        flex-direction: column;
+        border: 3px solid greenyellow;
+        margin: 5px;
+        padding: 3px;
+        color: greenyellow;
+
+        #name {
+            font-size: 24;
+            font-weight: 800;
+        }
+
+        #text {
+            color: rgb(61, 61, 61);
+        }
+    }
+}
