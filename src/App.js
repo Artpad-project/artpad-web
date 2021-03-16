@@ -1,11 +1,15 @@
 import Members from './components/Members'
+import BootstrapNavbar from './components/Navbar';
 import './css/App.css'
 
 function App() {
   return (
-    <div>
-      <Members/>
-    </div>
+    <>
+      <BootstrapNavbar/>
+      <div className="members">
+        <Members/>
+      </div>
+    </>
   );
 }
 

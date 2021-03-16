@@ -10,13 +10,11 @@ class MemberContainer extends React.Component {
 
     render() {
         return (
-            <div class="member-container">
-                <div class="member main-div">
-                    <img class="member img" src={`${this.img_src}`}/>
-                    <div class="member description">
-                        <h3 id="name">{this.name}</h3>
-                        <p id="text">{this.description}</p>
-                    </div>
+            <div className="member-container">
+                <img className="member img" src={`${this.img_src}`} alt=""/>
+                <div className="member description">
+                    <h3 id="name">{this.name}</h3>
+                    <p id="text">{this.description}</p>
                 </div>
             </div>
         );
@@ -31,26 +29,38 @@ export default function Members() {
             img_src: "images/artpad.png"
         },{
             name: "LECOMTE Paul",
-            description: "Miam les grosses bites turgescentes :)",
+            description: "MiaMiam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)m les grosses bites turgescentes :)",
             img_src: "images/artpad.png"
         },{
             name: "DESMARRAIS Lowen",
-            description: "J'ai cassé étoutes mes lunettes snif (;-;)",
+            description: "J'ai cassé toutes mes lunettes snif (;-;)",
             img_src: "images/artpad.png"
         },{
             name: "DUBOIN Léo",
             description: "Je suis un peu weeb tehe ;p",
             img_src: "images/artpad.png"
-        }
+        },
+        {
+            name: "MONTEAU--SHIOZAKI Emilie",
+            description: "J'ai faim.",
+            img_src: "images/artpad.png"
+        },
+        {
+            name: "MACRON Emmanuel",
+            description: "Parceque c'est notre PROJEEEEEET !",
+            img_src: "images/artpad.png"
+        },
     ];
 
     return (
-            members.map((member) =>
+        <>
+            {members.map((member) =>
                 <MemberContainer 
                     img_src={`${member.img_src}`}
                     description={`${member.description}`}
                     name={`${member.name}`}
                 />
-            )
+            )}
+        </>
     );
 }
