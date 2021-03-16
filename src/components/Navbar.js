@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 export function NavbarEpita () {
     return (
@@ -8,8 +9,8 @@ export function NavbarEpita () {
             <div className="navbar left">
                 <img id="logo" src="images/artpad.png" alt=""/>
                 <ul id="pages">
-                    <li><a href="github.com">Le projet</a></li>
-                    <li><a href="github.com">Les membres</a></li>
+                    <li><Link to={'/projet'}>Le projet</Link></li>
+                    <li><Link to={'/members'}>Les membres</Link></li>
                 </ul>
             </div>
             <ul className="navbar navlinks">
@@ -27,18 +28,18 @@ export function NavbarEpita () {
 export default function BootstrapNavbar () {
    return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
-            <a className="navbar-brand" href="github.com">
+            <Link to={'/'} className="navbar-brand">
                 <img src="images/artpad.png" width="60" height="60" alt="artpad-logo"></img>
                 Artpad
-            </a>
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-tag=".comnavbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ul-auto">
-                    <a className="nav-item nav-link active" href="github.com">Home</a>
-                    <a className="nav-item nav-link" href="github.com">Le projet</a>
-                    <a className="nav-item nav-link" href="github.com">Les membres</a>
+                    <Link to={'/'} className="nav-item nav-link active">Home</Link>
+                    <Link to={'/project'} className="nav-item nav-link">Le projet</Link>
+                    <Link to={'/members'} className="nav-item nav-link">Les membres</Link>
                 </div>
             </div>
         </nav>
