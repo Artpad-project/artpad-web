@@ -32,7 +32,7 @@ export default function BootstrapNavbar () {
         <img src="images/artpad.png" width="60" height="60" alt="artpad-logo"></img>
         Artpad
       </Link>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-tag=".comnavbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
