@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/artpad-web/static/css/main.57c17739.chunk.css",
-    "main.js": "/artpad-web/static/js/main.cd5ae879.chunk.js",
-    "main.js.map": "/artpad-web/static/js/main.cd5ae879.chunk.js.map",
+    "main.css": "/artpad-web/static/css/main.6595c7ba.chunk.css",
+    "main.js": "/artpad-web/static/js/main.60b7436e.chunk.js",
+    "main.js.map": "/artpad-web/static/js/main.60b7436e.chunk.js.map",
     "runtime-main.js": "/artpad-web/static/js/runtime-main.381d7276.js",
     "runtime-main.js.map": "/artpad-web/static/js/runtime-main.381d7276.js.map",
-    "static/js/2.32bb23d2.chunk.js": "/artpad-web/static/js/2.32bb23d2.chunk.js",
-    "static/js/2.32bb23d2.chunk.js.map": "/artpad-web/static/js/2.32bb23d2.chunk.js.map",
+    "static/js/2.bbc2a1b1.chunk.js": "/artpad-web/static/js/2.bbc2a1b1.chunk.js",
+    "static/js/2.bbc2a1b1.chunk.js.map": "/artpad-web/static/js/2.bbc2a1b1.chunk.js.map",
     "index.html": "/artpad-web/index.html",
-    "static/css/main.57c17739.chunk.css.map": "/artpad-web/static/css/main.57c17739.chunk.css.map",
-    "static/js/2.32bb23d2.chunk.js.LICENSE.txt": "/artpad-web/static/js/2.32bb23d2.chunk.js.LICENSE.txt"
+    "static/css/main.6595c7ba.chunk.css.map": "/artpad-web/static/css/main.6595c7ba.chunk.css.map",
+    "static/js/2.bbc2a1b1.chunk.js.LICENSE.txt": "/artpad-web/static/js/2.bbc2a1b1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.381d7276.js",
-    "static/js/2.32bb23d2.chunk.js",
-    "static/css/main.57c17739.chunk.css",
-    "static/js/main.cd5ae879.chunk.js"
+    "static/js/2.bbc2a1b1.chunk.js",
+    "static/css/main.6595c7ba.chunk.css",
+    "static/js/main.60b7436e.chunk.js"
   ]
 }
