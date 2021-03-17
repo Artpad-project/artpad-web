@@ -14,6 +14,7 @@ class MemberContainer extends React.Component {
         <img className="member img" src={`${this.img_src}`} alt=""/>
         <div className="member description">
           <h3 id="name">{this.name}</h3>
+          <hr className="member separator" />
           <p id="text">{this.description}</p>
         </div>
       </div>
@@ -21,7 +22,7 @@ class MemberContainer extends React.Component {
   }
 }
 
-export default function Members() {
+export default function Members(props) {
   const members = [
     {
       name: "AUBERT Tom",
@@ -39,26 +40,16 @@ export default function Members() {
       name: "DUBOIN Léo",
       description: "Je suis un peu weeb tehe ;p",
       img_src: "images/artpad.png"
-    },
-    {
-      name: "MONTEAU--SHIOZAKI Emilie",
-      description: "J'ai faim.",
-      img_src: "images/artpad.png"
-    },
-    {
-      name: "MACRON Emmanuel",
-      description: "Parceque c'est notre PROJEEEEEET !",
-      img_src: "images/artpad.png"
-    },
+    }
   ];
 
   return (
     <>
       {members.map((member) =>
         <MemberContainer 
-          img_src={`${member.img_src}`}
-          description={`${member.description}`}
-          name={`${member.name}`}
+          img_src={member.img_src}
+          description={member.description}
+          name={member.name}
         />
       )}
     </>

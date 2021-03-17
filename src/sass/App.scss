@@ -1,14 +1,22 @@
+// Reccurent sizes
 $default-margin: 5px;
+
+// Colors
 $photoshop-dark-blue: rgb(0, 29, 52);
 $photoshop-light-blue: rgb(30, 65, 90, 0.75);
 $background-dark: rgb(7, 21, 34);
+$background-light: rgba(128, 128, 128, 0.7);
 $font-light: rgb(128, 128, 128);
 $font-dark: rgb(47, 47, 47);
+
+// Update fonts
+$family-code: "Sans Forgetica", "Raleway", serif;
+$family-sans-serif: "Raleway", sans-serif;
 
 .members {
   display: flex;
   flex-direction: column;
-  margin: 10px 100px 0 100px ;
+  margin: 10px 50px 0 50px ;
   min-width: 1000;
 }
 
@@ -20,6 +28,16 @@ $font-dark: rgb(47, 47, 47);
   .member.img {
     order: 1;
   }
+
+  #name {
+    padding-right: .5cm;
+    text-align: right;
+  }
+
+  .separator {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
 }
 
 .member-container {
@@ -28,7 +46,8 @@ $font-dark: rgb(47, 47, 47);
   min-width: 300px;
   display: inline-flex;
   flex-direction: row;
-  background: rgb(128, 128, 128,.8);
+  background: $background-light;
+  border: 1px solid $photoshop-light-blue;
   border-radius: 5px;
   margin: 10px 10px 10px 50px;
 
@@ -51,13 +70,23 @@ $font-dark: rgb(47, 47, 47);
     #name {
       font-size: 18px;
       font-weight: 600;
+      color: $font-dark;
     }
 
     #text {
       font-style: italic;
       color: $font-dark;
     }
+
+    .separator {
+      color: $photoshop-dark-blue;
+      border: 1px solid $font-dark;
+      border-radius: 5px;
+      margin-right: 10%;
+      margin-left: 5%;
+    }
   }
+
 }
 
 .navbar-epita {
@@ -164,5 +193,48 @@ $font-dark: rgb(47, 47, 47);
     margin: 2px 25% 0 25%;
     font-size: 11px;
     text-align: center;
+  }
+}
+
+.project {
+  .section {
+    padding: 0 1cm 0 1cm;
+
+    #title {
+      background-color: $background-dark;
+      border-radius: 5px;
+      border-bottom: 2px solid $photoshop-light-blue;
+      color: $font-light;
+      margin-left: 2cm;
+      padding: 5px;
+      display: inline;
+      white-space: nowrap;
+    }
+
+    #content {
+      font-size: 17px;
+      min-width: 500px;
+      background: $background-light;
+      border-radius: $default-margin;
+      border: 1px solid $photoshop-dark-blue;
+      padding: 8px;
+      margin: 0.5cm 0 1cm 0;
+    }
+  }
+}
+
+.page-title {
+  margin: 1cm 0 .5cm 0;
+  display: flex;
+  justify-content: center;
+  min-width: 500px;
+
+  h1 {
+    border: 2px solid $photoshop-light-blue;
+    background-color: $background-dark;
+    border-radius: 5px;
+    font-size: 40px;
+    color: $font-light;
+    padding: 12px;
   }
 }

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import {  faGithub } from '@fortawesome/free-brands-svg-icons';
 
-export default function Footer () {
+export default function Footer (props) {
   return (
     <>
       <div className="footer footer-wrapper">

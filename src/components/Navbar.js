@@ -25,12 +25,11 @@ export function NavbarEpita () {
   )
 }
 
-export default function BootstrapNavbar () {
+export default function BootstrapNavbar (props) {
  return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark">
       <Link to={'/'} className="navbar-brand">
-        <img src="images/artpad.png" width="60" height="60" alt="artpad-logo"></img>
-        Artpad
+        <img src="images/artpad.png" width="60" height="60" alt="Artpad"></img>
       </Link>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

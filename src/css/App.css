@@ -1,7 +1,7 @@
 .members {
   display: flex;
   flex-direction: column;
-  margin: 10px 100px 0 100px;
+  margin: 10px 50px 0 50px;
   min-width: 1000;
 }
 
@@ -13,6 +13,14 @@
 .member-container:nth-child(even) .member.img {
   order: 1;
 }
+.member-container:nth-child(even) #name {
+  padding-right: 0.5cm;
+  text-align: right;
+}
+.member-container:nth-child(even) .separator {
+  margin-left: 10%;
+  margin-right: 5%;
+}
 
 .member-container {
   position: relative;
@@ -20,7 +28,8 @@
   min-width: 300px;
   display: inline-flex;
   flex-direction: row;
-  background: rgba(128, 128, 128, 0.8);
+  background: rgba(128, 128, 128, 0.7);
+  border: 1px solid rgba(30, 65, 90, 0.75);
   border-radius: 5px;
   margin: 10px 10px 10px 50px;
 }
@@ -42,10 +51,18 @@
 .member-container .member.description #name {
   font-size: 18px;
   font-weight: 600;
+  color: #2f2f2f;
 }
 .member-container .member.description #text {
   font-style: italic;
   color: #2f2f2f;
+}
+.member-container .member.description .separator {
+  color: #001d34;
+  border: 1px solid #2f2f2f;
+  border-radius: 5px;
+  margin-right: 10%;
+  margin-left: 5%;
 }
 
 .navbar-epita {
@@ -138,6 +155,44 @@
   margin: 2px 25% 0 25%;
   font-size: 11px;
   text-align: center;
+}
+
+.project .section {
+  padding: 0 1cm 0 1cm;
+}
+.project .section #title {
+  background-color: #071522;
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(30, 65, 90, 0.75);
+  color: gray;
+  margin-left: 2cm;
+  padding: 5px;
+  display: inline;
+  white-space: nowrap;
+}
+.project .section #content {
+  font-size: 17px;
+  min-width: 500px;
+  background: rgba(128, 128, 128, 0.7);
+  border-radius: 5px;
+  border: 1px solid #001d34;
+  padding: 8px;
+  margin: 0.5cm 0 1cm 0;
+}
+
+.page-title {
+  margin: 1cm 0 0.5cm 0;
+  display: flex;
+  justify-content: center;
+  min-width: 500px;
+}
+.page-title h1 {
+  border: 2px solid rgba(30, 65, 90, 0.75);
+  background-color: #071522;
+  border-radius: 5px;
+  font-size: 40px;
+  color: gray;
+  padding: 12px;
 }
 
 /*# sourceMappingURL=App.css.map */
