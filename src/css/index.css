@@ -1,0 +1,25 @@
+@import './App.css';
+@import './Bootstrap.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  font-size: medium;
+  background: fixed;
+  background-color: #001d34;
+}
+
+body div#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.footer-wrapper {
+  border-top: 1px solid rgb(30, 65, 90, 0.5);
+}

@@ -1,0 +1,31 @@
+$photoshop-light-blue: rgb(30, 65, 90, 0.75);
+
+.navbar {
+  background-color: #071522;
+  border-bottom: 1px solid $photoshop-light-blue;
+
+  .navbar-brand {
+    font-size: 25px;
+    
+    img {
+      margin: 0 10px 0 0 ;
+    }
+  }
+
+  .nav-item {
+    font-size: 25px;
+    color: grey;
+  }
+}
+
+ // Required (Must-have for any SCSS file(s) to work)
+ @import "../../node_modules/bootstrap/scss/functions";
+ @import "../../node_modules/bootstrap/scss/variables";
+ @import "../../node_modules/bootstrap/scss/mixins";
+ 
+ // Bootstrap Navbar Styles
+ @import "../../node_modules/bootstrap/scss/nav";
+ @import "../../node_modules/bootstrap/scss/navbar";
+ @import "../../node_modules/bootstrap/scss/dropdown";
+ @import "../../node_modules/bootstrap/scss/transitions";
+
