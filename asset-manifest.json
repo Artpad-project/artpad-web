@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/artpad-web/static/css/main.e22fce46.chunk.css",
-    "main.js": "/artpad-web/static/js/main.b0363d7f.chunk.js",
-    "main.js.map": "/artpad-web/static/js/main.b0363d7f.chunk.js.map",
+    "main.js": "/artpad-web/static/js/main.33cba62f.chunk.js",
+    "main.js.map": "/artpad-web/static/js/main.33cba62f.chunk.js.map",
     "runtime-main.js": "/artpad-web/static/js/runtime-main.381d7276.js",
     "runtime-main.js.map": "/artpad-web/static/js/runtime-main.381d7276.js.map",
     "static/js/2.0889f29c.chunk.js": "/artpad-web/static/js/2.0889f29c.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.381d7276.js",
     "static/js/2.0889f29c.chunk.js",
     "static/css/main.e22fce46.chunk.css",
-    "static/js/main.b0363d7f.chunk.js"
+    "static/js/main.33cba62f.chunk.js"
   ]
 }
