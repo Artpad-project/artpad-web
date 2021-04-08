@@ -25,21 +25,21 @@ class MemberContainer extends React.Component {
 export default function Members(props) {
   const members = [
     {
-      name: "AUBERT Tom",
-      description: "J'aime trop les neko traps ! OwO",
-      img_src: "images/artpad.png"
-    },{
       name: "LECOMTE Paul",
-      description: "MiaMiam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)Miam les grosses bites turgescentes :)m les grosses bites turgescentes :)",
-      img_src: "images/artpad.png"
+      description: "'OwO, what's this ? :3' - Les dragons sont sa plus grande passion.",
+      img_src: "images/drip_palicock.png"
+    },{
+      name: "AUBERT Tom",
+      description: "'Yeaaaah, Peace Peace' - Toujours fidèle à son leader, ce jeune rouquin est prêt à tout sacrifier, parce que c'est notre 'PROOOOJEEEEEET'",
+      img_src: "images/big_saucisse.png"
     },{
       name: "DESMARRAIS Lowen",
-      description: "J'ai cassé toutes mes lunettes snif (;-;)",
-      img_src: "images/artpad.png"
+      description: "'Rain falls without anyone to blame' - La dépression l'a soulevé, mais il compte bien soulever ce projet.",
+      img_src: "images/drip_lowen.png"
     },{
       name: "DUBOIN Léo",
-      description: "Je suis un peu weeb tehe ;p",
-      img_src: "images/artpad.png"
+      description: "'shitsurei, kamimashita' - Si le groupe s'appelle la WEEBANCE c'est surtout à cause de lui.",
+      img_src: "images/big_leo.png"
     }
   ];
 

@@ -18,7 +18,7 @@ const sections = [
     content: "Intérieurement, nous étions tous assez curieux quant au fonctionnement des logiciels de retouche \
               photos/vidéo que nous utilisons assez régulièrement. Il est vrai que ce projet n'est pas d'une originalité \
               débordante, mais nous souhaitons tout de même nous attaquer aux divers algorithmes complexes qui ont rendu \
-              si célèbres certains logiciels.\ De plus, les principaux logiciels de retouches photos/vidéo sont assez onéreux, \
+              si célèbres certains logiciels. De plus, les principaux logiciels de retouches photos/vidéo sont assez onéreux, \
               il est donc intéressant de pouvoir proposer gratuite (et faite maison) une alternative qui corresponde à nos attentes !",
     img: "images/artpad.png"
   }

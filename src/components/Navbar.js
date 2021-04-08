@@ -7,7 +7,7 @@ export function NavbarEpita () {
   return (
     <nav className="navbar-epita">
       <div className="navbar left">
-        <img id="logo" src="images/artpad.png" alt=""/>
+        <img id="logo" src="images/logo_projet.png" alt=""/>
         <ul id="pages">
           <li><Link to={'/projet'}>Le projet</Link></li>
           <li><Link to={'/members'}>Les membres</Link></li>

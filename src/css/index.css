@@ -1,6 +1,10 @@
 @import './App.css';
 @import './Bootstrap.css';
 
+html {
+  background-color: #071522
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,6 +23,11 @@ body div#root {
 .wrapper {
   flex: 1 0 auto;
   margin-bottom: .5cm;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-wrapper {

@@ -28,8 +28,8 @@
   min-width: 300px;
   display: inline-flex;
   flex-direction: row;
-  background: rgba(128, 128, 128, 0.7);
-  border: 1px solid rgba(30, 65, 90, 0.75);
+  background: rgba(128, 128, 128, 0.702);
+  border: 1px solid rgba(31, 66, 92, 0.749);
   border-radius: 5px;
   margin: 10px 10px 10px 50px;
 }
@@ -163,7 +163,7 @@
 .project .section #title {
   background-color: #071522;
   border-radius: 5px;
-  border-bottom: 2px solid rgba(30, 65, 90, 0.75);
+  border-bottom: 2px solid rgba(31, 66, 92, 0.749);
   color: gray;
   margin-left: 2cm;
   padding: 5px;
@@ -173,7 +173,7 @@
 .project .section #content {
   font-size: 17px;
   min-width: 500px;
-  background: rgba(128, 128, 128, 0.7);
+  background: rgba(128, 128, 128, 0.702);
   border-radius: 5px;
   border: 1px solid #001d34;
   padding: 8px;
@@ -187,12 +187,32 @@
   min-width: 500px;
 }
 .page-title h1 {
-  border: 2px solid rgba(30, 65, 90, 0.75);
+  border: 2px solid rgba(31, 66, 92, 0.749);
   background-color: #071522;
   border-radius: 5px;
   font-size: 40px;
   color: gray;
   padding: 12px;
+}
+
+.homepage {
+  display: inline-flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+  color: gray;
+  text-align: center;
+  border: 2px solid rgba(31, 66, 92, 0.749);
+}
+.homepage h1 {
+  font-size: 40px;
+}
+.homepage hr {
+  margin-top: -1px;
+  width: 80%;
+  border: 1px solid rgba(31, 66, 92, 0.749);
 }
 
 /*# sourceMappingURL=App.css.map */
